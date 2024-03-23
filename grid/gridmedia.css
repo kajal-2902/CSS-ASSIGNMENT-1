@@ -1,0 +1,105 @@
+@media screen and (max-width : 767px) {
+    .Container{
+        display: grid;
+        grid-template-columns: auto;
+        height: 300vh;
+        width: 100%;
+        gap: 8px;
+        background-color: black; 
+    }
+    
+.one{
+    border: solid 2px black;
+}
+.a{
+    grid-row: span 1;
+    grid-column: span 1;
+    height: 200px;
+    background: url(ii1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.b{
+    grid-row: span 1;
+    height: 200px;
+    grid-column: span 1;
+    background: url(ii2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.c{
+ display: none;
+}
+
+.d{
+    grid-row: span 1;
+    grid-column: span 1;
+    height: 200px;
+    background: url(ii3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.e{
+    grid-row: span 1;
+    grid-column: span 1;
+    height: 200px;
+    background: url(ii6.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f{
+    grid-row: span 1;
+    grid-column: span 1;
+    height: 200px;
+    background: url(ii5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 200px;
+    background: url(ii7.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 200px;
+    background: url(ii8.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.i{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 200px;
+    background: url(ii9.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.j{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 200px;
+    background: url(ii10.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.k{
+    grid-column: span 1;
+    grid-row: span 1;
+    height: 200px;
+    background: url(ii11.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+}

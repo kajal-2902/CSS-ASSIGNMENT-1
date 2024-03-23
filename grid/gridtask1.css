@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    height: 100vh;
+    width: 100%;
+    gap: 8px;
+    background-color: black; 
+}
+
+.one{
+    border: solid 2px black;
+}
+
+.a{
+    grid-column: span 4;
+    background: url(ii1.avif) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.b{
+    grid-column: span 2;
+    background: url(ii2.avif) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c{
+    grid-row: span 4;
+    background-color: black;
+}
+.p1{
+    font-size: larger;
+    color: white;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.p3{
+    font-size: 15px;
+    color: white;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+.p4{
+    color: red;
+    text-align: right;
+    margin-right: 30px;
+}
+.fb{
+    color: white;
+}
+.tw{
+    color: white; 
+    margin-left: 15px;
+}
+.insta{
+    color: white; 
+    margin-left: 15px;
+}
+.icon{
+    margin-top: 35px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.d{
+    background: url(ii3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.e{
+    grid-column: span 4;
+    background: url(ii6.avif)center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.f{
+    background: url(ii5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.g{
+    grid-column: span 3;
+    background: url(ii7.avif)center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h{
+    grid-column: span 3;
+    background: url(ii8.avif)center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.i{
+    grid-column: span 2;
+    background: url(ii9.avif)center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.j{
+    grid-column: span 2;
+    background: url(ii10.avif)center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.k{
+    grid-column: span 2;
+    background: url(ii11.avif)center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
